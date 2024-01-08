@@ -1,0 +1,30 @@
+### GET ALL BOOKS
+GET http://localhost:8080/
+
+
+### GET A BOOK BY ID
+GET http://localhost:8080/
+
+
+### POST A BOOK
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "name": "tomato",
+  "status": "active"
+}
+
+
+### PATCH BOOK BY ID
+PATCH http://localhost:8080/
+Content-Type: application/json
+
+{
+  "name": "tomato",
+  "status": "active"
+}
+
+
+### DELETE BOOK BY ID
+DELETE http://localhost:8080/
