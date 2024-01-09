@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "Libro",
+    "descripcion": "El mejor libro del mundo",
+    "imagen": "https://shop.iturri.com/7831-large_default/camisa-laboral-blanca-manga-larga-con-tejido-fresh.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Libro2",
+    "descripcion": "El 2 mejor libro del mundo",
+    "imagen": "https://shop.iturri.com/7831-large_default/camisa-laboral-blanca-manga-larga-con-tejido-fresh.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Libro3",
+    "descripcion": "El 3 mejor libro del mundo",
+    "imagen": "https://shop.iturri.com/7831-large_default/camisa-laboral-blanca-manga-larga-con-tejido-fresh.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Libro4",
+    "descripcion": "El 4 mejor libro del mundo",
+    "imagen": "https://shop.iturri.com/7831-large_default/camisa-laboral-blanca-manga-larga-con-tejido-fresh.jpg"
+  }
+]
