@@ -1,0 +1,55 @@
+<h1>Books</h1>
+
+<ul>
+  {{#each books}}
+  <li>
+    <h3>{{name}}</h3>
+    <p>{{description}}</p>
+    <img {{image}}/>
+
+    <a href="/delete-book/{{id}}">Delete</a>
+    <a href="/edit-book/{{id}}">Edit</a>
+  </li>
+  {{/each}}
+</ul>
+
+<form action="{{#unless book.id}}/new-book{{else}}/update-book/{{book.id}}{{/unless}}" method="post">
+
+  <div>
+    <label>Name:
+      <input 
+        type="text" 
+        name="name" 
+        placeholder="Juan..." 
+        id="name"
+        value="{{book.name}}"
+      >
+    </label>
+  </div>
+
+  <div>
+    <label>Description:
+      <input 
+        type="text" 
+        name="description" 
+        placeholder="El mejor libro..." 
+        id="description"
+        value="{{book.description}}"
+      >
+    </label>
+  </div>
+
+  <div>
+    <label>Image:
+      <input 
+        type="file" 
+        name="image" 
+        accept="image/png, image/jpeg, image/jpg" 
+        id="image"
+        value="{{book.image}}"
+      >
+    </label>
+  </div>
+
+  <button>Submit</button>
+</form>

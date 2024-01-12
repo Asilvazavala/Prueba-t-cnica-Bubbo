@@ -1,0 +1,5 @@
+#express server config
+PORT=3000
+
+#firebase database config
+GOOGLE_APPLICATION_CREDENTIALS=C:\Users\firebase.json

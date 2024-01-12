@@ -1,0 +1,33 @@
+### GET ALL BOOKS
+GET http://localhost:8080/books
+
+
+### GET A BOOK BY ID
+GET http://localhost:8080/book/D7T35Aow9bY05DYTQbHq
+
+
+### POST A BOOK
+POST http://localhost:8080/new-book HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "5",
+  "nombre": "libro nuevo",
+  "descripcion": "descripcion nueva",
+  "imagen": "prueba"
+}
+
+
+### PATCH BOOK BY ID
+PUT http://localhost:8080/edit-book/1 HTTP/1.1
+Content-Type: application/json
+
+{
+  "nombre": "libro nuevo",
+  "descripcion": "descripcion nueva",
+  "imagen": ""
+}
+
+
+### DELETE BOOK BY ID
+DELETE http://localhost:8080/delete-book/1
